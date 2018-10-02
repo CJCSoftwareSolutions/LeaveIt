@@ -4,6 +4,9 @@
 {{ with .Site.Params.Social.LinkedIn }}
 <a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-linkedin"></i></a>
 {{ end }}
+{{ with .Site.Params.Social.LinkedInCompany }}
+<a href="https://linkedin.com/company/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-linkedin"></i></a>
+{{ end }}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-twitter"></i></a>
 {{ end }}
